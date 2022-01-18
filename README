@@ -1,3 +1,49 @@
-Instruction and resource repository for the excersises on the Copernicus Climate Data Store
+Instruction and resource repository for the excersises on the Copernicus Climate Data Store (CDS)
 
 Instructions: 
+
+1. Create an account on CDS an explore the site a bit - pay attention to the "Datasets", "Applications" and the "Toolbox"
+   -> https://cds.climate.copernicus.eu/
+
+2. Go to the Toolbox documentation and explore the Application Gallery
+   -> https://cds.climate.copernicus.eu/toolbox/doc/gallery/51_heatmap_by_city.html
+
+3. Search the application "Heatmap by city" - lets have a look a the Python code together.
+   Open te code in the Toolbox (use the red link)
+
+4. The application is opened in the Toolbox. Click on the red button (Copy) to copy the application to your workspace.
+
+5. Explore the application, add a city of your choice to it.
+
+6. Add the new cities dictionaty below (copy paste) and comment out the old dictionary:
+
+cities = OrderedDict({   # (cities taken from the PHEWE project)
+    'Helsinki': {'lat': 60.1102, 'lon': 24.7385},
+    'Stockholm': {'lat': 59.3262,'lon': 17.8419},
+    'Dublin': {'lat': 53.3239, 'lon': -6.5258},
+    'Rotterdam': {'lat': 51.9130, 'lon': 4.4539},
+    'London': {'lat': 51.5287,'lon': -0.2416},
+    'Prague': {'lat': 50.0598,'lon': 14.3255},
+    'Krakow': {'lat': 50.0468,'lon': 19.9348},
+    'Paris': {'lat': 48.8589,'lon': 2.2769},
+    'Budapest': {'lat': 47.4813,'lon': 18.9902},    
+    'Zurich': {'lat': 47.3775,'lon': 8.4666},    
+    'Ljubljana': {'lat': 46.0662,'lon': 14.4620},    
+    'Milan': {'lat': 45.4628,'lon': 9.1076},    
+    'Bucharest': {'lat': 44.4379,'lon': 26.0245},   
+    'Rome': {'lat': 41.9097,'lon': 12.2558},    
+    'Barcelona': {'lat': 41.3927,'lon': 2.0701},    
+    'Athens': {'lat': 37.9908,'lon': 23.7033},    
+})
+
+7.  Describe how you would change this application to depict heatmaps for climate projections:
+    a) which new dataset can be used for this (from the CDS)?
+    b) which procedures of the old application will have to be adapted/changed/added?
+    c) how to create the parameter list for the ct.catalogue.retrieve method?
+    d) how to extract 12 months from the projection data collection?
+    d) how to add a file download instruction to the application?
+    
+ 8) A solution file (including some changes in the layout of the application) can be downloaded from this project.
+    To apply the propsed solution, copy the content of this file and paste is to a new (empty) application the Toolbox by using the "+" button in your workspace.
+    
+    
