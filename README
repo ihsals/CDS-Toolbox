@@ -44,6 +44,7 @@ cities = OrderedDict({   # (cities taken from the PHEWE project)
     d) how to add a file download instruction to the application?
     
  8) A solution file (including some changes in the layout of the application) can be downloaded from this project.
+    -> https://github.com/ihsals/CDS-Toolbox/blob/main/51_heatmap_by_city_projections.py 
     To apply the propsed solution, copy the content of this py-file and paste is to a new (empty) application in your 
     workspace of the Toolbox by using the "+" button in your workspace.
     
