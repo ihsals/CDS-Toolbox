@@ -49,6 +49,7 @@ cities = OrderedDict({   # (cities taken from the PHEWE project)
     workspace of the Toolbox by using the "+" button in your workspace.
     
  9) Which further steps are relevant to create more reliable information about projected ambient temperatures?
-    (e.g. add more simulations/ensembles, perform bias correction)
+    (e.g. add more simulations/ensembles, perform bias correction,... Refer to the user learning servise for more information.
+    -> https://climate.copernicus.eu/e-learning-resources)
     
     
